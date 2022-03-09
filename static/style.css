@@ -1,0 +1,30 @@
+/* CSS Stylesheet for the COMP2110 Bob's Jobs Board */
+/* Author: Your Name                     */
+
+html {
+    background-color: firebrick;
+    color:chartreuse;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: bisque;
+}
+main {
+    background-color: cadetblue;
+}
+footer {
+    background-color: aquamarine;
+}
+.job {
+    width: 300px;
+    margin: auto;
+    border: 10px solid palegoldenrod;
+}
+.jobtitle {
+    text-decoration: green wavy underline;
+}
+
+aside {
+    background-color:deepskyblue;
+}
