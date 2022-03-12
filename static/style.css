@@ -1,28 +1,67 @@
 /* CSS Stylesheet for the COMP2110 Bob's Jobs Board */
-/* Author: Your Name                     */
+/* Author: Mingxin.Yang                     */
 
 html {
-    background-color: firebrick;
-    color:chartreuse;
-    font-family: sans-serif;
+   
+    color:rgb(255, 219, 250);
+    font-family:'Courier New', Courier, monospace;
 }
 
 header {
-    background-color: bisque;
+   background-image: url("https://media.wired.com/photos/5b6e035177a9d822a4642726/191:100/w_2292,h_1200,c_limit/Identifying-Hackers_REALONE.jpg");
+  background-size:50%;
 }
+.logo{
+    color:#fcbff7;
+    font-size:50px;
+    text-decoration:none;
+    text-align:center;
+    font-family:fantasy;
+    font-style:italic;
+}
+
+.currentpage{
+    color:rgb(240, 86, 188);
+    font-size: 20px;
+    font-weight:bold;
+}
+
+a:hover{
+    color:rgb(240, 86, 188)
+}
+
+.main-menu{
+    text-align:center;
+    margin:20px;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.page-header{
+    text-align:center;
+    color: rgb(255, 219, 250);
+    font-size: 20px;
+}
+
 main {
     background-color: cadetblue;
 }
 footer {
-    background-color: aquamarine;
+    
+    background-color: rgb(157, 89, 245);
 }
 .job {
-    width: 300px;
-    margin: auto;
-    border: 10px solid palegoldenrod;
+    width: auto;
+   
+    border: 5px solid rgb(3, 13, 56);
 }
 .jobtitle {
-    text-decoration: green wavy underline;
+    text-align:center;
+   font-weight:bolder;
+   font-size:xx-large;
 }
 
 aside {
