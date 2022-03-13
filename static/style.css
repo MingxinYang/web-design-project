@@ -1,8 +1,7 @@
 /* CSS Stylesheet for the COMP2110 Bob's Jobs Board */
 /* Author: Mingxin.Yang                     */
 
-html {
-   
+html { 
     color:rgb(255, 219, 250);
     font-family:'Courier New', Courier, monospace;
 }
@@ -11,8 +10,8 @@ header {
    background-image: url("https://media.wired.com/photos/5b6e035177a9d822a4642726/191:100/w_2292,h_1200,c_limit/Identifying-Hackers_REALONE.jpg");
   background-size:50%;
 }
-.logo{
-    color:#faedb1;
+.logo{ 
+    color:#ebd15f;
     font-size:70px;
     text-decoration:none;
     text-align:center;
