@@ -89,7 +89,7 @@ a:link{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    color:rgb(255, 219, 250);
+    color:rgb(167, 252, 247);
     font-size:medium;
 }
 #login-link:hover,#register-link:hover{
@@ -99,10 +99,10 @@ a:link{
 .jobtitle{
 color:#e9dc24;
 font-size:xx-large;
-text-decoration-line: underline;
+text-decoration-line: none;
 text-align:center;
 font-weight:bolder;
-font-size:xx-large;
+font-size:50px;
 }
 .company,.location,.salary{
     font-size:large;
@@ -110,20 +110,57 @@ font-size:xx-large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align:center;
 }
-main {
-    background-color: cadetblue;
-}
-footer {  
-    background-color: rgb(157, 89, 245);
-}
 .job {
     width: 1000px;
    margin-left:100px;
     border: 5px solid rgb(3, 13, 56);
     border-style:groove;
+    width:950px;
+    margin-left:140px;
+}
+main {
+    background-color: cadetblue;
 }
 
-
+footer {  
+    background-color: rgb(157, 89, 245);
+}
+#employer-feedback{
+    text-align:center;
+    display:grid;
+    grid-template-columns:2;
+    grid-template-rows:1;
+   
+}
+#employer-feedback h2{
+    margin-right:-690px;
+    background-color:rgb(226, 212, 8);
+    color:black;
+    text-align:center;
+}
+#employer-feedback h3{
+    font-size:30px;
+}
+.testimonial{
+    background-color:rgb(83, 119, 97);
+    
+}
+.testimonial:first-child{
+    padding-top:100px;
+    grid-column:1;
+    grid-row:1;
+}
+.testimonial-body li{
+    text-align:center;
+    margin-left:80px;
+    padding-right:100px;
+}
+.testimonial:nth-child(2){
+    margin-top:75px;
+    grid-column:2;
+    grid-row:1/span 2;
+    
+}
 aside {
-    background-color:deepskyblue;
+    background-color:rgb(83, 119, 97);
 }
