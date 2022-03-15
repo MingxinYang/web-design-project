@@ -4,8 +4,8 @@
 html { 
     color:rgb(43, 41, 42);
     font-family:'Courier New', Courier, monospace;
-    color:#000000;
-    font-style:bold;
+    background-color:#020631;
+    font-style:bold; 
 }
 
 header {
@@ -128,7 +128,9 @@ main {
 }
 
 footer {  
-    background-color: rgb(157, 89, 245);
+
+    height:70px;
+    background-color: #c2b941;
 }
 #employer-feedback{
     text-align:center;
@@ -174,4 +176,20 @@ footer {
 }
 aside {
     background-color:rgb(83, 119, 97);
+    height:360px;
+}
+#search-hints-terms{
+
+display:grid;
+grid: 150px / auto auto auto;
+  grid-gap: 10px;
+  padding:10px;
+}
+aside h2{
+    color:#c2b941;
+
+    text-shadow:2px 4px #110e02;
+  text-align:center;
+  padding-top:10px;
+
 }
