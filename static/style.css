@@ -9,6 +9,7 @@ html {
 }
 
 header {
+    
    background-image: url("https://media.wired.com/photos/5b6e035177a9d822a4642726/191:100/w_2292,h_1200,c_limit/Identifying-Hackers_REALONE.jpg");
   background-size:50%;
 }
@@ -121,14 +122,16 @@ text-shadow:2px 4px #110e02;
     border-style:groove;
     width:950px;
     margin-left:140px;
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:0.5px 1px#d6e991;
 }
 main {
     background-color: cadetblue;
 }
 
 footer {  
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:bold;
     height:70px;
     background-color: #c2b941;
 }
@@ -179,6 +182,7 @@ aside {
     height:360px;
 }
 #search-hints-terms{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 display:grid;
 grid: 150px / auto auto auto;
   grid-gap: 10px;
@@ -186,14 +190,19 @@ grid: 150px / auto auto auto;
 }
 aside h2{
     color:#c2b941;
-
     text-shadow:2px 4px #110e02;
   text-align:center;
   padding-top:10px;
 }
 #search-hints a{
-  color: rgb(30, 173, 85);
+  color: #c2b941;
 }
 #search-hints a:hover{
     color: rgb(78, 255, 231);
+  }#search-hints-cities{
+      padding-bottom:15px;
+  }
+  #search-hints-cities,#search-hints-hiring{
+      display:grid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
