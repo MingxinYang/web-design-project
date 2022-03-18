@@ -43,7 +43,7 @@ a:link{
 
 }
 .pagelink:hover{
-    background-color:rgb(240, 255, 157);
+    background-color:#eecc35;
     color:rgb(64, 0, 66);
 }
 .search-input-field{
